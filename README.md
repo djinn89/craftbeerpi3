@@ -48,3 +48,8 @@ The contents of this folder will be mounted to `/usr/src/craftbeerpi3` and the s
 CraftBeerPi is a free & open source project. If you like to support the project I happy about a donation:
 
 [![Donate](https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2X9KR98KJ8YZQ)
+ 
+## INSTALLATION ISSUE
+due to the suspension of the wiring library You have to change the link of the github library with one present in the install.sh file (sudo nano install.sh), to make everything work I used the following link:
+https://github.com/WiringPi/WiringPi.git
+changing the name of the file from wiringPi to WiringPi! It worked!
